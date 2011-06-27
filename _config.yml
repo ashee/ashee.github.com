@@ -17,7 +17,7 @@ maruku:
 #
 # Site configuration
 #
-# url:          http://localhost:4000
+url:          ./
 title:        Amitava's Technical Blog
 description:  Technical articles worth sharing
 keywords:     linux kvm qemu haskell ruby javascript architecture medschool 
