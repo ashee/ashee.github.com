@@ -20,7 +20,7 @@ M4 that ships with Leopard (1.4.6) is broken. See
 * <http://www.ultimate-apple.com/2008/01/08/105-fix-a-broken-gnu-m4-in-105/>
 
 ## Homebrew install M4
-I use homebrew for most source installs as opposed to macports or fink.
+I use homebrew for most source installs in favor of macports or fink.
 {% highlight console %}
 
 ashee:local amitava$ sudo brew create http://ftp.wayne.edu/pub/gnu/m4/m4-1.4.16.tar.gz
@@ -36,10 +36,6 @@ File already downloaded in /Library/Caches/Homebrew
 ==> ./configure --disable-debug --disable-dependency-tracking --prefix=/usr/local/Cellar/m4/1.4.
 ==> make install
 /usr/local/Cellar/m4/1.4.16: 10 files, 860K, built in 39 seconds
-
-ashee:local amitava$ ls /usr/local/Cellar/m4
-1.4.16
-	
 
 {% endhighlight %}
 
@@ -67,3 +63,5 @@ ashee:local amitava$ sudo mv /usr/bin/m4 /usr/bin/m4.orig
 ashee:local amitava$ sudo ln -s /usr/local/Cellar/m4/1.4.16/bin/m4 /usr/bin/m4
 ashee:local amitava$ sudo ln -s /usr/local/Cellar/m4/1.4.16/bin/m4 /usr/bin/gm4
 {% endhighlight %}
+
+
