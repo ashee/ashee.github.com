@@ -1,42 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-		
-		<title>{{page.title}}</title>
+<html>
 
-		<!-- Meta tags -->
-		<meta name="description" content="" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {% include head.html %}
 
-		<!-- Don't forget to update the bookmark icons (favicon.ico and apple-touch-icons) in the root: http://mathiasbynens.be/notes/touch-icons -->
+  <body>
 
-		<!-- CSS -->
-		<link rel="stylesheet" href="assets/css/main.css?version=1" />
-		<link rel="stylesheet" href="assets/css/pygment.css" />
-		<link rel="stylesheet" href="assets/css/app.css" />
-		
-		<!-- JavaScript -->
-		<!--[if IE]><![endif]-->
-		<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-		<script src="assets/js/respond.min.js"></script>
-	</head>
-	<body>
-	  {{content}}
-    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="assets/js/jquery-1.6.1.min.js">\x3C/script>')</script>
+    {% include header.html %}
 
-    <script>
-      var _gaq=[['_setAccount','UA-3575874-3'],['_trackPageview'],['_trackPageLoadTime']];
-      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
-      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-      s.parentNode.insertBefore(g,s)}(document,'script'));
-    </script>
-	</body>
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
 </html>
-
-

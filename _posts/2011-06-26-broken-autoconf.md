@@ -5,12 +5,10 @@ title: autoconf issues
 
 # Autoconf Issue #
 {% highlight console %}
-
 ashee:foonly amitava$ aclocal 
 /usr/bin/gm4: INTERNAL ERROR: recursive push_string!
 autom4te: /usr/bin/gm4 failed with exit status: 1
 aclocal: /usr/bin/autom4te failed with exit status: 1
-
 {% endhighlight %}
 
 ## Broken M4

@@ -1,26 +1,16 @@
-#
-# Jekyll configuration
-#
-#destination: ./_site
-auto:        false
-lsi:         true # better related posts
-server_port: 4000
-pygments:    true
-markdown:    maruku
-permalink:   none
-maruku:
-  use_tex:    true
-  use_divs:   false
-  png_dir:    /assets/img
-  png_url:    /assets/img
+# Site settings
+title: Amitava Shee
+email: amitava.shee@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  This is Amitava Shee's blog to record and share his discoveries
+  in technology and architecture. Amitava is a programmer and a systems
+  architect building applications and integration solutions in the healthcare
+  research domain for over 20 years.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://ashee.github.com" # the base hostname & protocol for your site
+twitter_username: amitavashee
+github_username:  ashee
+linkedin_username: amitavashee
 
-#
-# Site configuration
-#
-url:          ./
-title:        Amitava's Technical Blog
-description:  Technical articles worth sharing
-keywords:     linux kvm qemu haskell ruby javascript architecture medschool 
-author:       Amitava Shee
-email:        amitava.shee@gmail.com
-analytics_id: UA-3575874-3
+# Build settings
+markdown: kramdown
