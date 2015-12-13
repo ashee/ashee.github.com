@@ -1,6 +1,6 @@
 ---
 layout: post
-title: autoconf issues
+title: Autoconf Issues
 author: Amitava Shee
 ---
 
