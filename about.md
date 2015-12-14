@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+tag: about
 ---
 
 Amitava Shee is full stack technologist helping companies identify and implement leading edge technologies.
