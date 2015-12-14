@@ -11,6 +11,7 @@ url: "http://ashee.github.com" # the base hostname & protocol for your site
 twitter_username: amitavashee
 github_username:  ashee
 linkedin_username: amitavashee
+ga_tracking_id: "UA-3575874-4"
 
 # Build settings
 markdown: kramdown
